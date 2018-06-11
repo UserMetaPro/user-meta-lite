@@ -1,0 +1,4406 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: User Meta Pro v1.2\n"
+"Report-Msgid-Bugs-To: http://user-meta.com/contact-us/\n"
+"POT-Creation-Date: 2012-04-10 16:32+0600\n"
+"PO-Revision-Date: 2015-06-06 21:10:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: User Meta Pro <support@user-meta.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+# @ user-meta
+#: controllers/pro/umEmailNotificationController.php:204
+#: controllers/pro/umEmailNotificationController.php:210
+msgid "Email verification url: %s"
+msgstr "Indirizzo di Verifica Email: %s"
+
+# @ user-meta
+#: controllers/pro/umEmailNotificationController.php:207
+#: controllers/pro/umEmailNotificationController.php:212
+msgid "Activation url: %s"
+msgstr "Indirizzo di Attivazione: %s"
+
+# @ user-meta
+#: controllers/pro/umEmailNotificationController.php:226
+#, fuzzy
+msgid ""
+"To reset your password, please visit the following address: \\r\\n\\r\\n %s"
+msgstr "Per reimpostare la tua password, segui il seguente indirizzo:"
+
+# @ user-meta
+#: controllers/pro/umFormWidgetController.php:15
+msgid "User Meta Form"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umFormWidgetController.php:17
+msgid "Show user registration, profile or login form as widget"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umFormWidgetController.php:67
+msgid "type=\"%s\" is invalid."
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umFormWidgetController.php:121
+#: controllers/pro/umLoginWidgetController.php:95
+msgid "Guest Title:"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umFormWidgetController.php:124
+#: controllers/pro/umLoginWidgetController.php:98
+msgid "Only guest users can see this title"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umFormWidgetController.php:130
+#: controllers/pro/umLoginWidgetController.php:104
+msgid "Logged-In User Title:"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umFormWidgetController.php:133
+#: controllers/pro/umLoginWidgetController.php:107
+msgid "Only logged-in users can see this title"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umFormWidgetController.php:139
+msgid "Action Type:"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umFormWidgetController.php:147
+msgid "Form Name:"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umFormWidgetController.php:155
+msgid "Diff (optional):"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umFormWidgetController.php:158
+msgid "For showing role based on user profile"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umLoginWidgetController.php:19
+msgid "User Meta Login"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umLoginWidgetController.php:21
+msgid "Login Widget"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umLoginWidgetController.php:89
+#: models/umSupportArray.php:749 models/umSupportArray.php:752
+#: views/generateForm.php:149 views/settingsPage.php:19
+msgid "Login"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umLoginWidgetController.php:113
+msgid "Hide this widget when viewing login page"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umPreloadsProController.php:243
+#: models/umSupportArray.php:754
+msgid "<strong>ERROR</strong>: Invalid %s."
+msgstr "<strong>ERRORE</strong>: %s non valido."
+
+# @ user-meta
+#: controllers/pro/umPreloadsProController.php:246
+msgid ""
+"<strong>ERROR</strong>: Incorrect Password. <a href=\"%s\" title=\"Password "
+"Lost and Found\">Lost your password</a>?"
+msgstr ""
+"<strong>ERRORE</strong>: Password incorretta. <a href=\"%s\" title="
+"\"Recupera Password\">Hai dimenticato la tua password</a>?"
+
+# @ user-meta
+#: controllers/pro/umPreloadsProController.php:256
+#: controllers/pro/umPreloadsProController.php:262
+msgid "Please set %s!"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umPreloadsProController.php:256
+#: views/pro/settings/loginSettings.php:108
+msgid "Reset Password Page"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umPreloadsProController.php:262
+#: views/pro/settings/miscSettings.php:18
+#: views/pro/settings/registrationSettings.php:51
+msgid "Email verification page"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:57
+#: controllers/pro/umUserActivationController.php:63
+#: controllers/pro/umUserActivationController.php:184
+#: controllers/pro/umUserActivationController.php:351
+#: controllers/pro/umUserActivationController.php:400
+msgid "Activate"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:66
+#: controllers/pro/umUserActivationController.php:71
+#: controllers/pro/umUserActivationController.php:184
+#: controllers/pro/umUserActivationController.php:405
+msgid "Deactivate"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:144
+msgid "Active"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:145
+msgid "Inactive"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:146
+msgid "Pending"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:147
+msgid "Pending Approval"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:148
+msgid "Pending Email Verification"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:310
+msgid "Not an admin account!"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:314
+msgid "User does not exists."
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:331
+msgid "User %s registered on your site."
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:332
+msgid "Approve Now"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:333
+msgid "or"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:334
+msgid "Deny"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:336
+msgid "User %s is already approved and active."
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:350
+msgid "User %s has been approved but still needs email verification."
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:351
+msgid "now without verifying email."
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:353
+msgid "User %s is has been approved."
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:356
+msgid "User %s is has been approved and active."
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:399
+msgid "New user %s registered on your site."
+msgstr "Il Nuovo Utente %s si è registrato al sito."
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:404
+msgid "User %s is already activated."
+msgstr "L'utente %s è già stato attivato."
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:411
+msgid "activated"
+msgstr "attivato"
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:413
+msgid "deactivated"
+msgstr "disattivato"
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:416
+msgid "%1$s users have been %2$s"
+msgstr "%1$s utenti sono stati %2$s"
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:418
+msgid "User has been %s"
+msgstr "L'utente è stato %s"
+
+# @ user-meta
+#: controllers/pro/umUserActivationController.php:422
+msgid "No user updated"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUsersImportController.php:21
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Non hai i permessi sufficienti per accedere a questa pagina."
+
+# @ user-meta
+#: controllers/pro/umUsersImportController.php:74 models/umAjaxModel.php:137
+msgid "Something went wrong!"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUsersImportController.php:92
+#: models/pro/umAjaxProModel.php:317 models/umSupportArray.php:356
+msgid "Avatar"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUsersImportController.php:126
+msgid "CSV file is not found for import!"
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUsersImportController.php:128
+msgid "Error occurred while importing."
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUsersImportController.php:132
+msgid "Email should be selected as one of the fields."
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUsersImportController.php:135
+msgid "Username should be selected as one of the fields."
+msgstr ""
+
+# @ user-meta
+#: controllers/pro/umUsersImportController.php:138
+msgid "Both Email and Username should be selected as any of the fields."
+msgstr ""
+
+# @ user-meta
+#: controllers/umAdminPagesController.php:64 models/umSupportArray.php:57
+#: models/umSupportModel.php:511 views/pro/exportImport/exportImportUm.php:25
+msgid "Settings"
+msgstr ""
+
+# @ user-meta
+#: controllers/umPreloadsController.php:202 models/umSupportArray.php:773
+#: views/pro/settings/redirectionSettings.php:30
+msgid "Profile"
+msgstr "Profilo"
+
+#: controllers/umPreloadsController.php:255
+msgid ""
+"There is a new version of %1$s available. Visit <a href=\"%2$s\">Plugins</a> "
+"page to update the plugin."
+msgstr ""
+
+# @ user-meta
+#: controllers/umPreloadsController.php:384
+msgid "Security check"
+msgstr ""
+
+# @ user-meta
+#: controllers/umSettingsController.php:44
+msgid "Settings successfully saved."
+msgstr ""
+
+# @ user-meta
+#: controllers/umShortcodesController.php:253
+msgid "Add User Meta Shortcode"
+msgstr ""
+
+# @ default
+#: controllers/umVersionUpdateController.php:454
+msgid ""
+"Some texts of UserMetaPro have been updated. If you are using your site in "
+"any other languages than english, please update your translation."
+msgstr ""
+
+# @ user-meta
+#: controllers/umVersionUpdateController.php:455
+msgid "Dismiss"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:30 models/umSupportArray.php:282
+#: models/umSupportArray.php:514 views/pro/settings/backendProfile.php:23
+msgid "Username"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:31 views/pro/settings/backendProfile.php:32
+msgid "E-mail"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:32 models/umSupportArray.php:292
+#: models/umSupportArray.php:750 views/settings/activationForm.php:53
+msgid "Password"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:33
+msgid "Nicename"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:34 models/umSupportArray.php:301
+#: views/pro/settings/backendProfile.php:33
+msgid "Website"
+msgstr "Sito Web"
+
+# @ user-meta
+#: lib/models/umpfArray.php:35 models/umSupportArray.php:306
+#: views/pro/settings/backendProfile.php:27
+msgid "Display Name"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:36 models/umSupportArray.php:311
+#: views/pro/settings/backendProfile.php:26
+msgid "Nickname"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:37 models/umSupportArray.php:316
+#: views/pro/settings/backendProfile.php:24
+msgid "First Name"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:38 models/umSupportArray.php:321
+#: views/pro/settings/backendProfile.php:25
+msgid "Last Name"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:39 models/classes/builder/FieldBuilder.php:111
+#, fuzzy
+msgid "Description"
+msgstr "Registrazione"
+
+# @ user-meta
+#: lib/models/umpfArray.php:40 models/umSupportArray.php:331
+msgid "Registration Date"
+msgstr "Data di Registrazione"
+
+# @ user-meta
+#: lib/models/umpfArray.php:41 models/umSupportArray.php:336
+msgid "Role"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:42 models/umSupportArray.php:341
+msgid "Jabber"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:43 models/umSupportArray.php:346
+msgid "Aim"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:44 models/umSupportArray.php:351
+msgid "Yim"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:76
+msgid "Afghanistan"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:77
+msgid "Albania"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:78
+msgid "Algeria"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:79
+msgid "American Samoa"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:80
+msgid "Andorra"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:81
+msgid "Angola"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:82
+msgid "Anguilla"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:83
+msgid "Antarctica"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:84
+msgid "Antigua and Barbuda"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:85
+msgid "Argentina"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:86
+msgid "Armenia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:87
+msgid "Aruba"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:88
+msgid "Australia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:89
+msgid "Austria"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:90
+msgid "Azerbaijan"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:91
+msgid "Bahamas"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:92
+msgid "Bahrain"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:93
+msgid "Bangladesh"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:94
+msgid "Barbados"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:95
+msgid "Belarus"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:96
+msgid "Belgium"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:97
+msgid "Belize"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:98
+msgid "Benin"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:99
+msgid "Bermuda"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:100
+msgid "Bhutan"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:101
+msgid "Bolivia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:102
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:103
+msgid "Botswana"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:104
+msgid "Bouvet Island"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:105
+msgid "Brazil"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:106
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:107
+msgid "Brunei Darussalam"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:108
+msgid "Bulgaria"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:109
+msgid "Burkina Faso"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:110
+msgid "Burundi"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:111
+msgid "Cambodia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:112
+msgid "Cameroon"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:113
+msgid "Canada"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:114
+msgid "Cape Verde"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:115
+msgid "Cayman Islands"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:116
+msgid "Central African Republic"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:117
+msgid "Chad"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:118
+msgid "Chile"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:119
+msgid "China"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:120
+msgid "Christmas Island"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:121
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:122
+msgid "Colombia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:123
+msgid "Comoros"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:124
+msgid "Congo"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:125
+msgid "Congo, the Democratic Republic of the"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:126
+msgid "Cook Islands"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:127
+msgid "Costa Rica"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:128
+msgid "Cote D'Ivoire"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:129
+msgid "Croatia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:130
+msgid "Cuba"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:131
+msgid "Cyprus"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:132
+msgid "Czech Republic"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:133
+msgid "Denmark"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:134
+msgid "Djibouti"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:135
+msgid "Dominica"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:136
+msgid "Dominican Republic"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:137
+msgid "Ecuador"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:138
+msgid "Egypt"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:139
+msgid "El Salvador"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:140
+msgid "Equatorial Guinea"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:141
+msgid "Eritrea"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:142
+msgid "Estonia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:143
+msgid "Ethiopia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:144
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:145
+msgid "Faroe Islands"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:146
+msgid "Fiji"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:147
+msgid "Finland"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:148
+msgid "France"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:149
+msgid "French Guiana"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:150
+msgid "French Polynesia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:151
+msgid "French Southern Territories"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:152
+msgid "Gabon"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:153
+msgid "Gambia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:154
+msgid "Georgia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:155
+msgid "Germany"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:156
+msgid "Ghana"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:157
+msgid "Gibraltar"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:158
+msgid "Greece"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:159
+msgid "Greenland"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:160
+msgid "Grenada"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:161
+msgid "Guadeloupe"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:162
+msgid "Guam"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:163
+msgid "Guatemala"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:164
+msgid "Guinea"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:165
+msgid "Guinea-Bissau"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:166
+msgid "Guyana"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:167
+msgid "Haiti"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:168
+msgid "Heard Island and Mcdonald Islands"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:169
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:170
+msgid "Honduras"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:171
+msgid "Hong Kong"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:172
+msgid "Hungary"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:173
+msgid "Iceland"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:174
+msgid "India"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:175
+msgid "Indonesia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:176
+msgid "Iran, Islamic Republic of"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:177
+msgid "Iraq"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:178
+msgid "Ireland"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:179
+msgid "Israel"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:180
+msgid "Italy"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:181
+msgid "Jamaica"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:182
+msgid "Japan"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:183
+msgid "Jordan"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:184
+msgid "Kazakhstan"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:185
+msgid "Kenya"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:186
+msgid "Kiribati"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:187
+msgid "Korea, Democratic People's Republic of"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:188
+msgid "Korea, Republic of"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:189
+msgid "Kuwait"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:190
+msgid "Kyrgyzstan"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:191
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:192
+msgid "Latvia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:193
+msgid "Lebanon"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:194
+msgid "Lesotho"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:195
+msgid "Liberia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:196
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:197
+msgid "Liechtenstein"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:198
+msgid "Lithuania"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:199
+msgid "Luxembourg"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:200
+msgid "Macao"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:201
+msgid "Macedonia, the Former Yugoslav Republic of"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:202
+msgid "Madagascar"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:203
+msgid "Malawi"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:204
+msgid "Malaysia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:205
+msgid "Maldives"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:206
+msgid "Mali"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:207
+msgid "Malta"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:208
+msgid "Marshall Islands"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:209
+msgid "Martinique"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:210
+msgid "Mauritania"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:211
+msgid "Mauritius"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:212
+msgid "Mayotte"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:213
+msgid "Mexico"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:214
+msgid "Micronesia, Federated States of"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:215
+msgid "Moldova, Republic of"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:216
+msgid "Monaco"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:217
+msgid "Mongolia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:218
+msgid "Montserrat"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:219
+msgid "Morocco"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:220
+msgid "Mozambique"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:221
+msgid "Myanmar"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:222
+msgid "Namibia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:223
+msgid "Nauru"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:224
+msgid "Nepal"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:225
+msgid "Netherlands"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:226
+msgid "Netherlands Antilles"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:227
+msgid "New Caledonia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:228
+msgid "New Zealand"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:229
+msgid "Nicaragua"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:230
+msgid "Niger"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:231
+msgid "Nigeria"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:232
+msgid "Niue"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:233
+msgid "Norfolk Island"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:234
+msgid "Northern Mariana Islands"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:235
+msgid "Norway"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:236
+msgid "Oman"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:237
+msgid "Pakistan"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:238
+msgid "Palau"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:239
+msgid "Palestinian Territory, Occupied"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:240
+msgid "Panama"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:241
+msgid "Papua New Guinea"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:242
+msgid "Paraguay"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:243
+msgid "Peru"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:244
+msgid "Philippines"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:245
+msgid "Pitcairn"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:246
+msgid "Poland"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:247
+msgid "Portugal"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:248
+msgid "Puerto Rico"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:249
+msgid "Qatar"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:250
+msgid "Reunion"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:251
+msgid "Romania"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:252
+msgid "Russian Federation"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:253
+msgid "Rwanda"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:254
+msgid "Saint Helena"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:255
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:256
+msgid "Saint Lucia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:257
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:258
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:259
+msgid "Samoa"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:260
+msgid "San Marino"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:261
+msgid "Sao Tome and Principe"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:262
+msgid "Saudi Arabia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:263
+msgid "Senegal"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:264
+msgid "Serbia and Montenegro"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:265
+msgid "Seychelles"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:266
+msgid "Sierra Leone"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:267
+msgid "Singapore"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:268
+msgid "Slovakia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:269
+msgid "Slovenia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:270
+msgid "Solomon Islands"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:271
+msgid "Somalia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:272
+msgid "South Africa"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:273
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:274
+msgid "Spain"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:275
+msgid "Sri Lanka"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:276
+msgid "Sudan"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:277
+msgid "Suriname"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:278
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:279
+msgid "Swaziland"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:280
+msgid "Sweden"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:281
+msgid "Switzerland"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:282
+msgid "Syrian Arab Republic"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:283
+msgid "Taiwan, Province of China"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:284
+msgid "Tajikistan"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:285
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:286
+msgid "Thailand"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:287
+msgid "Timor-Leste"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:288
+msgid "Togo"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:289
+msgid "Tokelau"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:290
+msgid "Tonga"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:291
+msgid "Trinidad and Tobago"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:292
+msgid "Tunisia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:293
+msgid "Turkey"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:294
+msgid "Turkmenistan"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:295
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:296
+msgid "Tuvalu"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:297
+msgid "Uganda"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:298
+msgid "Ukraine"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:299
+msgid "United Arab Emirates"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:300
+msgid "United Kingdom"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:301
+msgid "United States"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:302
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:303
+msgid "Uruguay"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:304
+msgid "Uzbekistan"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:305
+msgid "Vanuatu"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:306
+msgid "Venezuela"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:307
+msgid "Vietnam"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:308
+msgid "Virgin Islands, British"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:309
+msgid "Virgin Islands, U.S."
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:310
+msgid "Wallis and Futuna"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:311
+msgid "Western Sahara"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:312
+msgid "Yemen"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:313
+msgid "Zambia"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfArray.php:314
+msgid "Zimbabwe"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfBuiltinFunctions.php:23
+#: lib/models/umpfBuiltinFunctions.php:131
+#, fuzzy
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr "<strong>ERRORE</strong>: %s non valido."
+
+# @ user-meta
+#: lib/models/umpfBuiltinFunctions.php:43
+#: lib/models/umpfBuiltinFunctions.php:153
+#, fuzzy
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr "<strong>ERRORE</strong>: %s non valido."
+
+# @ user-meta
+#: lib/models/umpfBuiltinFunctions.php:168
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfBuiltinFunctions.php:214
+msgid "Someone requested to reset the password for the following account:"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfBuiltinFunctions.php:216
+#, fuzzy
+msgid "Username: %s"
+msgstr "L'utente è stato %s"
+
+# @ user-meta
+#: lib/models/umpfBuiltinFunctions.php:217
+msgid ""
+"If you did not authorize this then please ignore this email and nothing will "
+"happen."
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfBuiltinFunctions.php:218
+#, fuzzy
+msgid "To reset your password, visit the following address:"
+msgstr "Per reimpostare la tua password, segui il seguente indirizzo:"
+
+# @ user-meta
+#: lib/models/umpfBuiltinFunctions.php:229
+#, fuzzy
+msgid "[%s] Password Reset"
+msgstr "Resetta la Password"
+
+# @ user-meta
+#: lib/models/umpfBuiltinFunctions.php:238
+msgid ""
+"The e-mail could not be sent. Possible reason: your host may have disabled "
+"the mail() function..."
+msgstr ""
+
+# @ user-meta
+# @ default
+#: lib/models/umpfBuiltinFunctions.php:257
+#: lib/models/umpfBuiltinFunctions.php:260
+#: lib/models/umpfBuiltinFunctions.php:264
+#: lib/models/umpfBuiltinFunctions.php:275
+#: lib/models/umpfBuiltinFunctions.php:296
+#, fuzzy
+msgid "Invalid key"
+msgstr "Chiave non valida"
+
+# @ user-meta
+# @ default
+#: lib/models/umpfWPSupports.php:30 lib/models/umpfWPSupports.php:41
+#: lib/models/umpfWPSupports.php:72
+msgid "Security check: admin only"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfWPSupports.php:111
+msgid "No role defined"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfWPSupports.php:254 models/classes/UserInsert.php:373
+msgid "Cannot create a user with an empty login name and empty email"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfWPSupports.php:330
+msgid "No file upload field found!"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfWPSupports.php:337
+msgid "File is empty."
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfWPSupports.php:340 models/classes/FileUploader.php:157
+msgid "Server error. Upload directory is not writable."
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfWPSupports.php:343
+msgid "File %s is too large."
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfWPSupports.php:360 models/classes/FileUploader.php:192
+#, fuzzy
+msgid "File %1$s has an invalid extension, it should be one of %2$s."
+msgstr "%1$s non ha un estensione valida. Solo %2$s sono permesse."
+
+# @ user-meta
+#: lib/models/umpfWPSupports.php:372 models/classes/FileUploader.php:217
+msgid "Uploaded file could not be saved."
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfWPSupports.php:372 models/classes/FileUploader.php:217
+msgid "The upload was cancelled due to server error"
+msgstr ""
+
+# @ user-meta
+#: lib/models/umpfWPSupports.php:434
+msgid "Redirecting..."
+msgstr ""
+
+# @ user-meta
+#: models/classes/Field/Multiple.php:43 models/classes/Field/Multiple.php:47
+#: views/generateField.php:170 views/generateField.php:173
+#: views/generateField.php:208 views/generateField.php:211
+#: views/pro/generateProField.php:83 views/pro/generateProField.php:86
+#, fuzzy
+msgid "Retype %s"
+msgstr "Reinserisci "
+
+# @ user-meta
+#: models/classes/Field/Password.php:56 models/classes/Field/Password.php:59
+#: views/generateField.php:218 views/generateField.php:222
+msgid "Current %s"
+msgstr ""
+
+# @ user-meta
+#: models/classes/Field/Password.php:78 models/classes/Field/Password.php:81
+#: views/generateField.php:219 views/generateField.php:225
+msgid "New %s"
+msgstr ""
+
+# @ user-meta
+#: models/classes/Field/pro/Blogname.php:41 views/pro/generateProField.php:42
+msgid "Site Name"
+msgstr ""
+
+# @ user-meta
+#: models/classes/Field/pro/Blogname.php:41 views/pro/generateProField.php:42
+msgid "Site Domain"
+msgstr ""
+
+# @ user-meta
+#: models/classes/Field/pro/Blogname.php:56 views/pro/generateProField.php:49
+msgid "Site Title "
+msgstr ""
+
+# @ user-meta
+#: models/classes/Field/pro/Blogname.php:79 views/pro/generateProField.php:33
+#, fuzzy
+msgid "Site registration has been disabled."
+msgstr "La registrazione utenti è al momento disabilitata."
+
+#: models/classes/Field/pro/Captcha.php:56
+msgid ""
+"Please set \"Site key\" and \"Secret key\" from admin panel by User Meta >> "
+"Settings Page"
+msgstr ""
+
+# @ user-meta
+#: models/classes/Field/pro/PageHeading.php:55 views/generateForm.php:109
+#: views/pro/generateProField.php:208
+msgid "Previous"
+msgstr "&laquo; Indietro"
+
+# @ user-meta
+#: models/classes/Field/pro/PageHeading.php:62
+#: views/pro/generateProField.php:216
+msgid "Next"
+msgstr "Avanti &raquo;"
+
+# @ user-meta
+#: models/classes/File.php:121 views/pro/exportImport/exportForm.php:142
+#: views/showFile.php:58
+msgid "Remove"
+msgstr ""
+
+# @ user-meta
+#: models/classes/FileUploader.php:163
+#, fuzzy
+msgid "No files were uploaded."
+msgstr "Trascina i file qui per caricarli"
+
+# @ user-meta
+#: models/classes/FileUploader.php:171
+msgid "File is empty"
+msgstr ""
+
+# @ user-meta
+#: models/classes/FileUploader.php:177
+msgid "File is too large"
+msgstr ""
+
+# @ user-meta
+#: models/classes/UserInsert.php:79
+msgid "Action type is empty"
+msgstr ""
+
+# @ user-meta
+#: models/classes/UserInsert.php:102
+msgid "Invalid user!"
+msgstr ""
+
+# @ user-meta
+#: models/classes/UserInsert.php:123
+msgid "Form name is empty"
+msgstr ""
+
+# @ user-meta
+#: models/classes/UserInsert.php:471
+msgid "User must be logged in to update profile"
+msgstr "Devi essere connesso per poter aggiornare il tuo profilo"
+
+# @ user-meta
+#: models/classes/UserInsert.php:627 models/pro/umSupportProModel.php:32
+#: models/umMethods.php:116 models/umSupportModel.php:49
+msgid "Form \"%s\" is not found."
+msgstr ""
+
+# @ user-meta
+#: models/classes/UserInsert.php:631
+msgid "No field to update"
+msgstr ""
+
+# @ user-meta
+#: models/classes/UserInsert.php:647
+msgid "No data to update"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:90
+#: models/classes/builder/FieldBuilder.php:91
+msgid "Field Label"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:95
+msgid "Label Position"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:97 views/fields/field.php:106
+msgid "Top"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:98 views/fields/field.php:107
+msgid "Left"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:99 views/fields/field.php:108
+msgid "Right"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:100 views/fields/field.php:109
+msgid "Inline"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:102 views/fields/field.php:111
+msgid "Hidden"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:107
+#: models/classes/builder/FieldBuilder.php:352
+#: views/email/emailNotificationPage.php:43 views/fields/field.php:110
+#: views/pro/email/emailNotificationPage.php:235
+msgid "Placeholder"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:112
+msgid "Field's Description"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:116
+msgid "Unique identification key for field"
+msgstr ""
+
+#: models/classes/builder/FieldBuilder.php:117
+msgid "Unique identification key for field (required)."
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:120
+#: models/classes/builder/FieldBuilder.php:121 views/fields/field.php:134
+msgid "Default Value"
+msgstr ""
+
+#: models/classes/builder/FieldBuilder.php:122
+msgid "Use this value when user doesn't have any stored value"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:126 views/fields/field.php:142
+msgid "Field Options"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:131
+msgid "Input Class"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:132
+msgid "Specify custom class name for input"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:135
+msgid "Field Container Class"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:136
+msgid "Custom class name for field container"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:140
+msgid "Field Container Style"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:141
+msgid "Custom css style for field container"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:144 views/fields/field.php:285
+msgid "Field Size"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:148 views/fields/field.php:294
+msgid "Field Height"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:152 views/fields/field.php:303
+msgid "Max Char"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:153
+msgid "Maximum allowed character"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:157 views/fields/field.php:362
+msgid "Allowed Extension"
+msgstr "Estensioni Permesse"
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:162 views/fields/field.php:241
+msgid "Role Selection Type"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:171 views/fields/field.php:371
+msgid "Type Selection"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:174 views/fields/field.php:378
+msgid "Date"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:175 views/fields/field.php:379
+msgid "Time"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:176 views/fields/field.php:380
+msgid "Date and Time"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:180 views/fields/field.php:385
+msgid "Date Format"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:184
+msgid "Year Range"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:189 views/fields/field.php:394
+msgid "Save meta value by"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:191 views/fields/field.php:400
+msgid "Country Code"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:192 views/fields/field.php:401
+msgid "Country Name"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:198 views/fields/field.php:406
+msgid "Maximum Number"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:202 views/fields/field.php:414
+msgid "Minimum Number"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:207
+msgid "Intervals for number input"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:214
+#, fuzzy
+msgid "Maximum File Size (KB)"
+msgstr "Dimensione Massima del File"
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:260 views/fields/field.php:467
+msgid "Error Text"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:264
+msgid "Retype Label"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:265
+msgid "Label for retype field"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:269 views/fields/field.php:494
+msgid "reCaptcha Theme"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:271
+msgid "Light"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:272
+msgid "Dark"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:277
+msgid "Resize Image"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:282 views/fields/field.php:318
+msgid "Retype Email"
+msgstr "Reinserisci Email"
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:287 views/fields/field.php:323
+msgid "Retype Password"
+msgstr "Reinserisci la Password"
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:293 views/fields/field.php:151
+#: views/shortcodePopup.php:14 views/shortcodePopup.php:81
+msgid "Required"
+msgstr "Richiesto"
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:294 views/fields/field.php:157
+msgid "Admin Only"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:295 views/fields/field.php:163
+#: views/fields/field.php:187
+msgid "Non-Admin Only"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:296
+msgid "Read-Only for all user"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:297
+msgid "Read-Only for non admin"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:298 views/fields/field.php:181
+msgid "Unique"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:299 views/fields/field.php:193
+msgid "Only on Registration Page"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:301 views/fields/field.php:199
+msgid "Disable AJAX upload"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:302 views/fields/field.php:205
+msgid "Hide default avatar"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:304 views/fields/field.php:211
+msgid "Crop Image"
+msgstr ""
+
+# @ user-meta
+# @ default
+#: models/classes/builder/FieldBuilder.php:306 views/fields/field.php:217
+msgid "Line Break"
+msgstr ""
+
+# @ user-meta
+# @ default
+#: models/classes/builder/FieldBuilder.php:307 views/fields/field.php:223
+msgid "Allow integer only"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:310 views/fields/field.php:313
+msgid "Force to change username"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:313 views/fields/field.php:328
+msgid "Show password strength meter"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:314 views/fields/field.php:333
+msgid "Current password is required"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:315 views/fields/field.php:339
+msgid "Show Divider"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:316 views/fields/field.php:345
+msgid "Use Rich Text"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:317
+msgid "Make this field as shared"
+msgstr ""
+
+#: models/classes/builder/FieldBuilder.php:318
+msgid "Advanced mode"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:378
+msgid "Content"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:395
+msgid "Value"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:419 views/fields/field.php:90
+msgid "Field Type"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:486 views/fields/field.php:256
+#, fuzzy
+msgid "Allowed Roles"
+msgstr "Estensioni Permesse"
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:513 views/fields/field.php:229
+msgid "Default Role"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FieldBuilder.php:515 views/fields/field.php:234
+msgid "Should be one of the Allowed Roles"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FormBuilder.php:99 views/form.php:82
+msgid "Submit Button Title"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FormBuilder.php:103 views/form.php:90
+msgid "Submit Button Class"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FormBuilder.php:107 views/form.php:98
+msgid "Form Class"
+msgstr ""
+
+# @ user-meta
+#: models/classes/builder/FormBuilder.php:112 views/form.php:108
+msgid "Do not use AJAX submit"
+msgstr ""
+
+# @ user-meta
+#: models/classes/generate/ValidationRule.php:75
+msgid "%1$s: \"%2$s\" already taken"
+msgstr "%1$s: \"%2$s\" è già stato preso"
+
+# @ user-meta
+#: models/classes/generate/ValidationRule.php:78 models/umSupportArray.php:787
+msgid "Invalid %s"
+msgstr ""
+
+# @ user-meta
+#: models/pro/umAjaxProModel.php:92 models/umAjaxModel.php:148
+msgid "Error occurred while updating"
+msgstr ""
+
+# @ user-meta
+#: models/pro/umAjaxProModel.php:98 models/umAjaxModel.php:154
+msgid "Successfully saved."
+msgstr ""
+
+# @ user-meta
+#: models/pro/umAjaxProModel.php:143 models/pro/umAjaxProModel.php:147
+msgid "Something went wrong. File has not been uploaded"
+msgstr ""
+
+# @ user-meta
+#: models/pro/umAjaxProModel.php:162 models/pro/umAjaxProModel.php:190
+msgid "Nothing to import!"
+msgstr ""
+
+# @ user-meta
+#: models/pro/umAjaxProModel.php:188 views/pro/exportImport/importStep3.php:20
+msgid "Import completed."
+msgstr ""
+
+# @ user-meta
+#: models/pro/umMultisiteUserInsert.php:135
+msgid "Congratulations! Your new site, %s, is almost ready."
+msgstr ""
+
+# @ user-meta
+#: models/pro/umMultisiteUserInsert.php:136
+msgid ""
+"But, before you can start using your site, <strong>you must activate it</"
+"strong>."
+msgstr ""
+
+# @ user-meta
+#: models/pro/umMultisiteUserInsert.php:137
+msgid "Check your inbox at <strong>%s</strong> and click the link given."
+msgstr ""
+
+# @ user-meta
+#: models/pro/umMultisiteUserInsert.php:138
+msgid ""
+"If you do not activate your site within two days, you will have to sign up "
+"again."
+msgstr ""
+
+# @ user-meta
+#: models/pro/umProAuth.php:2
+msgid ""
+"Please enter your license information to <a href=\"%s\">activate User Meta "
+"Pro</a>."
+msgstr ""
+
+# @ user-meta
+#: models/pro/umSupportProModel.php:105
+msgid "Password reset is currently not allowed."
+msgstr ""
+
+# @ user-meta
+#: models/pro/umSupportProModel.php:274
+#, fuzzy
+msgid "Updated data:"
+msgstr "Aggiorna"
+
+# @ user-meta
+#: models/pro/umSupportProModel.php:275
+#, fuzzy
+msgid "Previous data:"
+msgstr "&laquo; Indietro"
+
+# @ user-meta
+#: models/pro/umSupportProModel.php:281
+#, fuzzy
+msgid "Updated password"
+msgstr "Nuova Password"
+
+# @ user-meta
+#: models/pro/umSupportProModel.php:715
+msgid "Send email to all admin"
+msgstr ""
+
+# @ user-meta
+#: models/pro/umSupportProModel.php:724
+msgid "Send email only, when user's data has been modified"
+msgstr ""
+
+# @ user-meta
+#: models/pro/umSupportProModel.php:732
+msgid "Disable this notification"
+msgstr "Disabilita questa notifica"
+
+# @ user-meta
+#: models/umAjaxModel.php:34
+msgid "%s already taken"
+msgstr "%s già preso"
+
+# @ user-meta
+#: models/umAjaxModel.php:134
+msgid "License has been withdrawn"
+msgstr ""
+
+# @ user-meta
+#: models/umMethods.php:29
+msgid "Please provide a name of action type."
+msgstr ""
+
+# @ user-meta
+#: models/umMethods.php:32
+msgid "Sorry. type=\"%s\" is not valid."
+msgstr ""
+
+# @ user-meta
+#: models/umMethods.php:61 models/umMethods.php:87
+msgid "No user found!."
+msgstr ""
+
+# @ user-meta
+#: models/umMethods.php:63
+msgid "You do not have permission to access user profile."
+msgstr ""
+
+# @ user-meta
+#: models/umMethods.php:78
+msgid "You have already registered. See your <a href=\"%s\">profile</a>"
+msgstr ""
+
+# @ user-meta
+#: models/umMethods.php:80
+msgid "User registration is currently not allowed."
+msgstr "La registrazione utenti è al momento disabilitata."
+
+# @ user-meta
+#: models/umMethods.php:111
+msgid "Please provide a form name."
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:29 models/umSupportModel.php:505
+#: views/pro/exportImport/exportImportUm.php:22
+msgid "Forms"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:30
+msgid "User Meta Forms Editor"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:36 models/umSupportModel.php:508
+msgid "Shared Fields"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:37
+msgid "User Meta Fields Editor"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:43 models/umSupportArray.php:44
+#: views/pro/exportImport/exportImportUm.php:23
+#, fuzzy
+msgid "Email Notifications"
+msgstr "Indirizzo di Verifica Email: %s"
+
+# @ user-meta
+#: models/umSupportArray.php:50 models/umSupportArray.php:51
+#: views/exportImport/importExportPage.php:11
+#: views/pro/exportImport/importExportPage.php:11
+msgid "Export & Import"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:58 views/settingsPage.php:7
+msgid "User Meta Settings"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:287 models/umSupportArray.php:515
+#: views/settings/activationForm.php:44
+msgid "Email"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:326 views/pro/settings/backendProfile.php:45
+msgid "Biographical Info"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:362
+msgid "New Blog"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:369
+msgid "Textbox"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:374
+msgid "Paragraph"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:379
+msgid "Rich Text"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:384
+msgid "Hidden Field"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:389
+msgid "Drop Down"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:394
+msgid "Select One (radio)"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:399
+msgid "Checkbox"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:404
+msgid "Multi Select"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:409
+msgid "Date / Time"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:424
+msgid "File Upload"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:429
+msgid "Image URL"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:434
+msgid "Phone Number"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:439
+msgid "Number"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:444
+msgid "URL"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:449
+msgid "Country"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:461
+msgid "Page Heading"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:466
+msgid "Section Heading"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:471 views/pro/email/mailForm.php:24
+#: views/pro/email/singleEmailForm.php:33
+#: views/settings/generalSettings.php:28
+msgid "HTML"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:476
+msgid "Captcha"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:516
+msgid "Username or Email"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:660
+msgid "Please Wait..."
+msgstr "Attendere prego..."
+
+# @ user-meta
+#: models/umSupportArray.php:663
+msgid "Upload"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:664
+msgid "Drop files here to upload"
+msgstr "Trascina i file qui per caricarli"
+
+# @ user-meta
+#: models/umSupportArray.php:665 views/settings/activationForm.php:66
+msgid "Cancel"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:666
+msgid "Failed"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:667
+msgid "%1$s has invalid extension. Only %2$s are allowed."
+msgstr "%1$s non ha un estensione valida. Solo %2$s sono permesse."
+
+# @ user-meta
+#: models/umSupportArray.php:668
+msgid "%1$s is too large, maximum file size is %2$s."
+msgstr "%1$s è troppo grande, la dimensione massima per i file è %2$s."
+
+# @ user-meta
+#: models/umSupportArray.php:669
+msgid "%s is empty, please select files again without it."
+msgstr "%s è vuoto, per favore seleziona di nuovo i files senza quello."
+
+#: models/umSupportArray.php:670
+msgid "Confirm to remove?"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:673
+msgid "Too weak"
+msgstr "Troppo Debole"
+
+# @ user-meta
+#: models/umSupportArray.php:674
+msgid "Weak password"
+msgstr "Password Debole"
+
+# @ user-meta
+#: models/umSupportArray.php:675
+msgid "Normal strength"
+msgstr "Password Media"
+
+# @ user-meta
+#: models/umSupportArray.php:676
+msgid "Strong password"
+msgstr "password Sicura"
+
+# @ user-meta
+#: models/umSupportArray.php:677
+msgid "Very strong password"
+msgstr "Password Molto Sicura"
+
+# @ user-meta
+#: models/umSupportArray.php:680
+msgid "* This field is required"
+msgstr "* Questo campo è richiesto"
+
+# @ user-meta
+#: models/umSupportArray.php:681
+msgid "* Please select an option"
+msgstr "* Seleziona un opzione"
+
+# @ user-meta
+#: models/umSupportArray.php:682
+msgid "* This checkbox is required"
+msgstr "* Questa scelta è richiesta"
+
+# @ user-meta
+#: models/umSupportArray.php:683
+msgid "* Minimum "
+msgstr "* Minimo"
+
+# @ user-meta
+#: models/umSupportArray.php:684
+msgid "* Maximum "
+msgstr "* Massimo"
+
+# @ user-meta
+#: models/umSupportArray.php:685
+msgid " characters allowed"
+msgstr "caratteri permessi"
+
+# @ user-meta
+#: models/umSupportArray.php:686
+msgid "* Minimum value is "
+msgstr "* Il valore minimo è"
+
+# @ user-meta
+#: models/umSupportArray.php:687
+msgid "* Maximum value is "
+msgstr "* Il valore massimo è"
+
+# @ user-meta
+#: models/umSupportArray.php:688
+msgid "* Date prior to "
+msgstr "* Data precedente a"
+
+# @ user-meta
+#: models/umSupportArray.php:689
+msgid "* Date past "
+msgstr "* Data successiva"
+
+# @ user-meta
+#: models/umSupportArray.php:690
+msgid " options allowed"
+msgstr "opzioni permese"
+
+# @ user-meta
+#: models/umSupportArray.php:691
+msgid "* Please select "
+msgstr "* Per favore seleziona"
+
+# @ user-meta
+#: models/umSupportArray.php:692
+msgid " options"
+msgstr "opzioni"
+
+# @ user-meta
+#: models/umSupportArray.php:693
+msgid "* Fields do not match"
+msgstr "* I campi non corrispondono"
+
+# @ user-meta
+#: models/umSupportArray.php:694
+msgid "* Invalid phone number"
+msgstr "* Numero di telefono non valido"
+
+# @ user-meta
+#: models/umSupportArray.php:695
+msgid "* Invalid email address"
+msgstr "* Email non valida"
+
+# @ user-meta
+#: models/umSupportArray.php:696
+msgid "* Not a valid integer"
+msgstr "* Non è un numero intero valido"
+
+# @ user-meta
+#: models/umSupportArray.php:697
+msgid "* Not a valid number"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:698
+msgid "* Invalid date, must be in YYYY-MM-DD format"
+msgstr "* Data non corretta, deve avere il seguente formato: YYYY-MM-DD"
+
+# @ user-meta
+#: models/umSupportArray.php:699
+msgid "* Invalid time, must be in hh:mm:ss format"
+msgstr "* Orario non valido, deve avere il seguente formato hh:mm:ss"
+
+# @ user-meta
+#: models/umSupportArray.php:700
+msgid "* Invalid datetime, must be in YYYY-MM-DD hh:mm:ss format"
+msgstr ""
+"* Data e orario non validi, devono avere il seguente formato: YYYY-MM-DD hh:"
+"mm:ss"
+
+# @ user-meta
+#: models/umSupportArray.php:701
+msgid "* Invalid IP address"
+msgstr "* Indirizzo IP non valido"
+
+# @ user-meta
+#: models/umSupportArray.php:702
+msgid "* Invalid URL"
+msgstr "* URL non valido"
+
+# @ user-meta
+#: models/umSupportArray.php:703
+msgid "* Invalid field"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:704
+msgid "* Numbers only"
+msgstr "* Solo numeri"
+
+# @ user-meta
+#: models/umSupportArray.php:705
+msgid "* Letters only"
+msgstr "* Solo lettere"
+
+# @ user-meta
+#: models/umSupportArray.php:706
+msgid "* No special characters allowed"
+msgstr "* I caratteri speciali non sono permessi"
+
+# @ user-meta
+#: models/umSupportArray.php:707
+msgid "* This user is already taken"
+msgstr "* Questo utente esiste già"
+
+# @ user-meta
+#: models/umSupportArray.php:751
+msgid "Remember me"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:753
+msgid "Both username and email are required"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:755
+msgid "Login successfuly"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:756
+msgid "Don't have an account? <a href=\"%s\">Sign up</a>"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:758
+msgid "Lost Password"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:759
+msgid "Lost your password?"
+msgstr "Hai dimenticato la password?"
+
+# @ user-meta
+#: models/umSupportArray.php:760
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"reset your password via email."
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:761
+msgid "Username or E-mail"
+msgstr "Nome Utente o Email"
+
+# @ user-meta
+#: models/umSupportArray.php:762
+msgid "Get New Password"
+msgstr "Ottieni una Nuova Password"
+
+# @ user-meta
+#: models/umSupportArray.php:764 models/umSupportArray.php:765
+#: models/umSupportArray.php:769
+msgid "Reset Password"
+msgstr "Resetta la Password"
+
+# @ user-meta
+#: models/umSupportArray.php:766
+msgid "Enter your new password below."
+msgstr "Entra la tua password qua sotto."
+
+# @ user-meta
+#: models/umSupportArray.php:767
+msgid "New password"
+msgstr "Nuova Password"
+
+# @ user-meta
+#: models/umSupportArray.php:768
+msgid "Confirm new password"
+msgstr "Conferma la nuova password"
+
+# @ user-meta
+#: models/umSupportArray.php:770
+msgid "The passwords do not match."
+msgstr "Le password non corrispondono."
+
+# @ user-meta
+#: models/umSupportArray.php:771
+msgid "Your password has been reset."
+msgstr "La tua password è stata resettata."
+
+# @ user-meta
+#: models/umSupportArray.php:774 models/umSupportArray.php:775
+msgid "Please login to access your profile."
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:776
+msgid "Profile successfully updated."
+msgstr "Profilo correttamente aggiornato."
+
+# @ user-meta
+#: models/umSupportArray.php:778 views/settingsPage.php:20
+msgid "Registration"
+msgstr "Registrazione"
+
+# @ user-meta
+#: models/umSupportArray.php:779
+msgid ""
+"We have sent you a verification link to your email. Please complete your "
+"registration by clicking the link."
+msgstr ""
+"Ti abbiamo spedito un link di verifica nella tua email. Per completare la "
+"tua registrazione devi cliccare quel link."
+
+# @ user-meta
+#: models/umSupportArray.php:780
+msgid ""
+"We have sent you a verification link to your email. Please verify your email "
+"by clicking the link and wait for admin approval."
+msgstr ""
+"Ti abbiamo spedito un link di verifica nella tua email. Per favore verifica "
+"la tua email cliccando quel link e attendi per l'approvazione del tuo "
+"account da parte di un amministratore."
+
+# @ user-meta
+#: models/umSupportArray.php:781
+msgid "Your email is successfully verified. Please wait for admin approval."
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:782
+msgid "Please wait until an admin approves your account."
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:783
+msgid ""
+"Your email is successfully verified and the account has been activated. <a "
+"href=\"%s\">Login now</a>"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:784
+msgid "Registration successfully completed."
+msgstr "Registrazione completata con successo."
+
+# @ user-meta
+#: models/umSupportArray.php:786
+msgid "Validation"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:788
+msgid "%s is required"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:789
+msgid "Invalid email address"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:790
+msgid "%s does not match"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:791
+msgid "Please provide valid current password"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:792
+msgid "Current %s is required"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:795
+msgid "Misc"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:796
+msgid "User is not member of this site."
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:797
+msgid "User already activated"
+msgstr "Utente già attivato"
+
+# @ user-meta
+#: models/umSupportArray.php:798
+msgid "<strong>ERROR:</strong> your account is inactive"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:799
+msgid "<strong>ERROR:</strong> your account is not yet activated."
+msgstr "<strong>ERRORE:</strong> il tuo account non è ancora stato attivato."
+
+# @ user-meta
+#: models/umSupportArray.php:800
+msgid "Please verify your email address."
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:801
+msgid "Check your e-mail for the confirmation link."
+msgstr "Controlla la tua email, dovresti aver ricevuto un link di conferma."
+
+# @ user-meta
+#: models/umSupportArray.php:802
+msgid "Email not found"
+msgstr "Email non trovata"
+
+# @ user-meta
+#: models/umSupportArray.php:803
+msgid "Incorrect captcha code"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:804
+msgid "Sorry, that key does not appear to be valid."
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:805
+msgid "Sorry, that key has expired. Please try again."
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:806
+msgid "Invalid parameter"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportArray.php:842
+msgid "Reset password"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportHtml.php:14
+msgid "Visit Plugin Site"
+msgstr ""
+
+# @ user-meta
+#: models/umSupportHtml.php:61 views/pro/settings/generalProSettings.php:11
+msgid "Read More"
+msgstr "Leggi Tutto"
+
+# @ user-meta
+#: views/email/emailNotificationPage.php:8
+msgid "E-mail Notification"
+msgstr ""
+
+# @ user-meta
+#: views/email/emailNotificationPage.php:19
+#: views/pro/email/emailNotificationPage.php:205
+msgid "Site Placeholder"
+msgstr ""
+
+# @ user-meta
+#: views/email/emailNotificationPage.php:28
+#: views/pro/email/emailNotificationPage.php:214
+msgid "User Placeholder"
+msgstr ""
+
+# @ user-meta
+#: views/email/emailNotificationPage.php:38
+#: views/pro/email/emailNotificationPage.php:226
+msgid "Custom Field"
+msgstr ""
+
+# @ user-meta
+#: views/email/emailNotificationPage.php:41
+#: views/pro/email/emailNotificationPage.php:229
+msgid ""
+"Placeholder will be replaced with the relevant value when used in email "
+"subject or body."
+msgstr ""
+
+# @ user-meta
+#: views/email/emailNotificationPage.php:45
+#: views/exportImport/importExportPage.php:21
+#: views/pro/exportImport/importExportPage.php:42 views/settingsPage.php:117
+msgid "Get started"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:79
+msgid "Field Title"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:100
+msgid "Title Position"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:116
+msgid "Field Description"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:124 views/pro/exportImport/exportForm.php:42
+msgid "Meta Key"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:169
+msgid "Read Only for all user"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:175
+msgid "Read Only for non admin"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:268
+msgid "CSS Class"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:277
+msgid "CSS Style"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:374
+msgid "Date, Time or Date & Time"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:422
+msgid "Max File Size"
+msgstr "Dimensione Massima del File"
+
+# @ user-meta
+#: views/fields/field.php:425
+msgid "(in KB. Default: 1024KB)"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:431
+msgid "Image Width (px)"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:434
+msgid "(For Image Only. e.g. 640)"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:440
+msgid "Image Height (px)"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:443
+msgid "(For Image Only. e.g. 480)"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:449
+msgid "Image Size (px) width/height"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:452
+msgid "(Default 96)"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:458
+msgid "Regex"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:461
+msgid "e.g.: %s"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:470
+msgid "Default: Invalid field"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:500
+msgid "Red"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:501
+msgid "White"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:502
+msgid "Black Glass"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:503
+msgid "Clean"
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:517
+msgid ""
+"By default, <strong>Required</strong> and <strong>Unique</strong> validation "
+"will be will be applied on this field. <strong>Read Only</strong> will be "
+"applied conditionally."
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:524
+msgid ""
+"By default, <strong>Required</strong> and <strong>Unique</strong> validation "
+"will be applied on this field."
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:531
+msgid ""
+"<strong>Required</strong> validation will be applied automatically when "
+"password field is being used for registration."
+msgstr ""
+
+# @ user-meta
+#: views/fields/field.php:646
+msgid "New Field"
+msgstr ""
+
+# @ user-meta
+#: views/fields/optionsSelection.php:45
+#, fuzzy
+msgid "Options"
+msgstr "opzioni"
+
+# @ user-meta
+#: views/form.php:11 views/shortcodePopup.php:20
+msgid "Form Name"
+msgstr ""
+
+# @ user-meta
+#: views/form.php:16
+msgid "(Give a name to your form)"
+msgstr ""
+
+# @ user-meta
+#: views/form.php:46
+msgid "Fields in your form (Drag from available fields)"
+msgstr ""
+
+# @ user-meta
+#: views/form.php:47 views/pro/exportImport/exportForm.php:10
+#: views/pro/settings/backendProfile.php:94
+msgid "Available Fields"
+msgstr ""
+
+# @ user-meta
+#: views/form.php:74
+msgid "Drag fields from right block to left block to add them to your form."
+msgstr ""
+
+# @ user-meta
+#: views/form.php:84
+msgid "Keep blank for default value"
+msgstr ""
+
+# @ user-meta
+#: views/form.php:92
+msgid "Assign class to submit button"
+msgstr ""
+
+# @ user-meta
+#: views/form.php:100
+msgid "Assign class to form tag"
+msgstr ""
+
+# @ user-meta
+#: views/form.php:118 views/formsEditorPage.php:9 views/formsEditorPage.php:54
+msgid "New Form"
+msgstr ""
+
+# @ user-meta
+#: views/forms/conditionalPanel.php:18
+msgid "Enable Conditional Logic"
+msgstr ""
+
+# @ user-meta
+#: views/formsEditorPage.php:8
+msgid "Forms Editor"
+msgstr ""
+
+# @ user-meta
+#: views/formsEditorPage.php:19 views/formsEditorPage.php:47
+#: views/pro/email/emailNotificationPage.php:192 views/settingsPage.php:101
+msgid "Save Changes"
+msgstr ""
+
+# @ user-meta
+#: views/formsEditorPage.php:66
+msgid "3 steps to get started"
+msgstr ""
+
+# @ user-meta
+#: views/generateForm.php:19
+msgid "Form is not found."
+msgstr ""
+
+# @ user-meta
+#: views/generateForm.php:22
+msgid "Fields are not found."
+msgstr ""
+
+# @ user-meta
+#: views/generateForm.php:25
+msgid "Fields were saved incorrectly."
+msgstr ""
+
+# @ user-meta
+#: views/generateForm.php:145 views/settings/activationForm.php:75
+msgid "Update"
+msgstr "Aggiorna"
+
+# @ user-meta
+#: views/generateForm.php:147
+msgid "Register"
+msgstr "Registrati"
+
+# @ user-meta
+#: views/metaBox.php:4
+msgid "Click to remove"
+msgstr ""
+
+# @ user-meta
+#: views/metaBox.php:12
+msgid "Click to toggle"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:7
+#, fuzzy
+msgid "E-mail Notifications"
+msgstr "Indirizzo di Verifica Email: %s"
+
+#: views/pro/email/emailNotificationPage.php:8
+msgid "Click panel title to expand"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:26
+msgid "This e-mail will be sent to new user after registration."
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:27
+#: views/pro/email/emailNotificationPage.php:56
+#: views/pro/email/emailNotificationPage.php:84
+#: views/pro/email/emailNotificationPage.php:99
+#: views/pro/email/emailNotificationPage.php:114
+#: views/pro/email/emailNotificationPage.php:129
+#: views/pro/email/emailNotificationPage.php:167
+msgid "User Notification"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:32
+#: views/pro/email/emailNotificationPage.php:43
+#: views/pro/email/emailNotificationPage.php:71
+msgid "Use placeholder %s if needed."
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:37
+msgid "This e-mail will be sent to admin after new user registration."
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:38
+#: views/pro/email/emailNotificationPage.php:66
+#: views/pro/email/emailNotificationPage.php:152
+#: views/pro/email/emailNotificationPage.php:177
+msgid "Admin Notification"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:46
+msgid "User Registration E-mail"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:53
+msgid "This email will be sent to user after email is verified."
+msgstr ""
+
+#: views/pro/email/emailNotificationPage.php:54
+msgid ""
+"To activate this email, go to <strong>User Meta >> Settings >> Registration</"
+"strong> and checked either \"Need email verification\" or \"Need both email "
+"verification and admin approval\"\n"
+"                    "
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:65
+msgid "This email will be sent to admin after user email is verified."
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:74
+msgid "After email is verified"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:80
+msgid ""
+"This e-mail will be sent to user when an admin approves his/her account."
+msgstr ""
+
+#: views/pro/email/emailNotificationPage.php:81
+msgid ""
+"To activate this email, go to <strong>User Meta >> Settings >> Registration</"
+"strong> and checked either \"Need admin approval\" or \"Need both email "
+"verification and admin approval\"\n"
+"                    "
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:91
+msgid "Admin Approval E-mail"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:97
+msgid "This e-mail will be sent to user upon activation."
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:106
+msgid "User Activation E-mail"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:112
+msgid "This e-mail will be sent to user upon deactivation."
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:121
+msgid "User Deactivation E-mail"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:127
+msgid "This e-mail will be sent to user when requested to reset password."
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:134
+msgid "Use placeholder %s or it will included automatically."
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:137
+msgid "Lost Password E-mail"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:151
+msgid "This e-mail will be sent to admin when user reset their password."
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:159
+msgid "Reset Password E-mail"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:166
+msgid ""
+"This e-mail will be sent to user when they update their front-end profile."
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:176
+msgid ""
+"This e-mail will be sent to admin when user update their front-end profile."
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/emailNotificationPage.php:184
+msgid "Profile Update E-mail"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/mailForm.php:7 views/pro/email/singleEmailForm.php:22
+msgid "From E-mail"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/mailForm.php:15 views/pro/email/singleEmailForm.php:13
+msgid "From Name"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/mailForm.php:23 views/pro/email/singleEmailForm.php:32
+#: views/settings/generalSettings.php:27
+msgid "Plain Text"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/mailForm.php:28 views/pro/email/singleEmailForm.php:37
+msgid "E-mail Format"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/mailForm.php:36 views/pro/email/singleEmailForm.php:46
+msgid "Subject"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/mailForm.php:44 views/pro/email/singleEmailForm.php:54
+msgid "Body"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/mailForm.php:52
+msgid "Disable Notification"
+msgstr ""
+
+# @ user-meta
+#: views/pro/email/singleEmailForm.php:15
+#: views/pro/email/singleEmailForm.php:24
+#: views/pro/email/singleEmailForm.php:39
+#: views/settings/generalSettings.php:39 views/settings/generalSettings.php:47
+#: views/settings/textSettings.php:11
+msgid "(Leave blank to use default)"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/exportForm.php:9
+msgid "Fields for export (Drag from available fields)"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/exportForm.php:49
+msgid "Drag all fields"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/exportForm.php:62
+msgid "Exclude Roles"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/exportForm.php:74
+msgid "Start Date"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/exportForm.php:82
+msgid "End Date"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/exportForm.php:90
+msgid "Order By"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/exportForm.php:105
+msgid "Order"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/exportForm.php:119
+#, fuzzy
+msgid "Save Only"
+msgstr "Salva"
+
+# @ user-meta
+#: views/pro/exportImport/exportForm.php:127
+msgid "Export Only"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/exportForm.php:135
+msgid "Save & Export"
+msgstr ""
+
+#: views/pro/exportImport/exportForm.php:155
+msgid "User Export (ID:%s)"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/exportImportUm.php:11
+msgid "Export UMP"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/exportImportUm.php:14
+msgid "Fields"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/exportImportUm.php:24
+msgid "User Export Templates"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/exportImportUm.php:38
+msgid "Export"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/exportImportUm.php:48
+msgid "Import UMP"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/exportImportUm.php:49
+msgid "Upload exported txt file to import."
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/exportImportUm.php:57
+msgid "Export & Import User Meta Pro"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importExportPage.php:34
+msgid "New User Export Template"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep1.php:7
+msgid "First row of csv file will be treated as field name."
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep1.php:8
+msgid "Fields should be separated by comma and enclosed with double quotation."
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep1.php:10
+msgid "Upload <strong>CSV</strong> file only."
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep1.php:20
+#: views/pro/exportImport/importStep2.php:117
+msgid "User Import"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep2.php:14
+msgid "Identify Uniquely"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep2.php:20
+msgid "By Email"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep2.php:21
+msgid "By Username"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep2.php:22
+msgid "By Both Email & Username"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep2.php:28
+msgid "CSV Header"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep2.php:29
+msgid "Assigning Field"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep2.php:31
+msgid "Sample Data"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep2.php:44
+msgid "Field Name"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep2.php:65
+msgid "User Role :"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep2.php:73
+msgid "Overwrite existing users."
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep2.php:81
+msgid "Send email to new user."
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep2.php:90
+msgid " Add custom field to %s (if not already added)"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep2.php:99
+msgid "<strong>Multisite:</strong> Add existing users to this site."
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep2.php:107
+#: views/pro/exportImport/importUmStep2.php:94
+msgid "Import"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep2.php:121
+msgid "User Import Status"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importStep3.php:21
+msgid "Close"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:23
+msgid "Import Fields"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:29
+msgid "Replace all existing fields"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:30
+msgid "Add only new fields"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:31
+msgid "Do not import any fields"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:38
+msgid "Import Forms"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:44
+msgid "Replace all existing forms"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:45
+msgid "Add only new forms"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:46
+msgid "Do not import any forms"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:53
+#, fuzzy
+msgid "Import Email Notifications"
+msgstr "Indirizzo di Verifica Email: %s"
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:59
+msgid "Replace all existing email templates"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:60
+msgid "Do not import any email template"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:67
+msgid "Import user export template"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:73
+msgid "Replace all existing export templates"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:74
+msgid "Add only new export template"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:75
+msgid "Do not import any export template"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:82
+msgid "Import Settings"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:88
+msgid "Replace all existing UMP settings"
+msgstr ""
+
+# @ user-meta
+#: views/pro/exportImport/importUmStep2.php:89
+msgid "Do not import any settings"
+msgstr ""
+
+# @ user-meta
+#: views/pro/fieldPro.php:99
+msgid "Please provide reCaptcha public and private keys in User Meta %s page"
+msgstr ""
+
+# @ user-meta
+#: views/pro/generateProField.php:284
+msgid "Please set public and private keys in User Meta >> Settings Page"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:14
+msgid "Personal Options Heading"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:15
+msgid "Visual Editor"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:16
+msgid "Admin Color Scheme"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:17
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:18
+msgid "Toolbar"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:22
+msgid "Name Heading"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:31
+msgid "Contact Info Heading"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:34
+msgid "AIM"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:35
+msgid "Yahoo IM"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:36
+msgid "Jabber / Google Talk"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:37
+msgid "Google+"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:38
+msgid "Twitter username"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:39
+msgid "Facebook profile URL"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:40
+msgid "Google Profile URL"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:44
+msgid "About Yourself Heading"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:46
+msgid "New Password"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:50
+msgid "Hide WordPress default fields"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:51
+msgid ""
+"Select fields from below, which you need to hide from backend profile page"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:91
+msgid "Extra fields in backend profile"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:92
+msgid ""
+"Add extra fields to backend profile. drag from available fields block to "
+"backend profile block"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/backendProfile.php:93
+msgid "Fields in backend profile (Drag from available fields)"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/generalProSettings.php:9
+msgid "reCAPTCHA Settings"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/generalProSettings.php:11
+msgid ""
+"reCAPTCHA is a free CAPTCHA service that helps to digitize books, newspapers "
+"and old time radio shows."
+msgstr ""
+
+#: views/pro/settings/generalProSettings.php:15
+msgid "Site key"
+msgstr ""
+
+#: views/pro/settings/generalProSettings.php:23
+msgid "Secret key"
+msgstr ""
+
+#: views/pro/settings/generalProSettings.php:29
+msgid ""
+"<p>User Meta Pro use reCAPTCHA as Captcha field. reCAPTCHA site key and "
+"secret key are required for using Captcha validation. Get these keys for "
+"free. <a href='http://www.google.com/recaptcha/admin' target='_blank'>Sign "
+"up now</a>.</p>"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/loginSettings.php:13
+msgid "User login by"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/loginSettings.php:24
+#: views/pro/settings/redirectionSettings.php:32
+msgid "Login Page"
+msgstr "Pagina di Login"
+
+# @ user-meta
+#: views/pro/settings/loginSettings.php:42
+msgid "Login page should contain shortcode like: %s"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/loginSettings.php:45
+msgid "Disable default login url (%s)"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/loginSettings.php:53
+msgid "Disable wp-login.php and redirect to front-end login page %s"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/loginSettings.php:62
+msgid "Login Form"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/loginSettings.php:77
+msgid "Disable lost password feature"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/loginSettings.php:93
+msgid "Hide registration link"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/loginSettings.php:100
+msgid "Disable AJAX submit"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/loginSettings.php:126
+msgid ""
+"Please select any page for resetting password as your default login url is "
+"disabled!"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/loginSettings.php:127
+msgid ""
+"This is the page a user will be redirected to when they want to retrieve/"
+"reset their password."
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/loginSettings.php:134
+msgid "Logged in user profile settings"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/loginSettings.php:159
+msgid "Multisite"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/loginSettings.php:164
+msgid "Prevent user login if user is not member of current site."
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/miscSettings.php:6
+msgid "Reset password page"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/miscSettings.php:14
+msgid ""
+"This is the page a user will be redirected to when they want to reset their "
+"password."
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/miscSettings.php:26
+msgid ""
+"This is the page a user will be redirected to when they want to verify their "
+"email address (if needed)."
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/redirectionSettings.php:10
+msgid "User Redirection Settings"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/redirectionSettings.php:12
+msgid "Disable redirection feature"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/redirectionSettings.php:18
+msgid "Set redirection on login, logout and registration"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/redirectionSettings.php:25
+msgid "No Redirection"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/redirectionSettings.php:26
+msgid "Default (<em>Use default redirection</em>)"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/redirectionSettings.php:27
+msgid "Same URL (<em>Same url, that was submitted</em>)"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/redirectionSettings.php:28
+msgid "Referer (<em>Send the user back to the page where they come from</em>)"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/redirectionSettings.php:29
+msgid "Home"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/redirectionSettings.php:31
+msgid "Dashboard"
+msgstr "Bacheca"
+
+# @ user-meta
+#: views/pro/settings/redirectionSettings.php:33
+msgid "<em> (Include http:// with url)</em>"
+msgstr ""
+
+#: views/pro/settings/redirectionSettings.php:68
+#: views/pro/settings/redirectionSettings.php:99
+#: views/pro/settings/redirectionSettings.php:129
+msgid "Page:"
+msgstr ""
+
+#: views/pro/settings/redirectionSettings.php:72
+#: views/pro/settings/redirectionSettings.php:103
+#: views/pro/settings/redirectionSettings.php:133
+msgid "None"
+msgstr ""
+
+#: views/pro/settings/redirectionSettings.php:77
+#: views/pro/settings/redirectionSettings.php:108
+#: views/pro/settings/redirectionSettings.php:138
+msgid "Custom url:"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/redirectionSettings.php:86
+msgid "Login Redirection"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/redirectionSettings.php:116
+msgid "Logout Redirection "
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/redirectionSettings.php:146
+msgid "Registration Redirection"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/registrationSettings.php:9
+msgid "User auto activation."
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/registrationSettings.php:9
+msgid "User will be activated automatically after registration"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/registrationSettings.php:10
+msgid "Need email verification."
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/registrationSettings.php:10
+msgid ""
+"A verification link will be sent to user email. User must verify the link to "
+"activate their account"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/registrationSettings.php:11
+msgid "Need admin approval."
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/registrationSettings.php:11
+msgid "Admin needs to approve the new user"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/registrationSettings.php:12
+msgid "Need both email verification and admin approval."
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/registrationSettings.php:12
+msgid ""
+"A verification link will be sent to user email. User must verify the link to "
+"activate their account and an admin needs to approve the account"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/registrationSettings.php:16
+msgid "User Activation"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/registrationSettings.php:28
+msgid "User registration page"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/registrationSettings.php:42
+msgid "Auto login after registration"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/registrationSettings.php:46
+msgid "If checked, user will be automatically logged in after registration."
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/registrationSettings.php:69
+msgid "Email verification will not work until a page is selected here!"
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/registrationSettings.php:70
+msgid ""
+"This is the page a user will be redirected to when they want to verify their "
+"email address."
+msgstr ""
+
+# @ user-meta
+#: views/pro/settings/registrationSettings.php:75
+#, fuzzy
+msgid "Multisite Registration"
+msgstr "Registrazione"
+
+# @ user-meta
+#: views/pro/settings/registrationSettings.php:80
+msgid ""
+"Allow user registration if user already exists in any of the other sites in "
+"the network"
+msgstr ""
+
+# @ user-meta
+#: views/settings/activationForm.php:8
+msgid "Version: %s"
+msgstr ""
+
+# @ user-meta
+#: views/settings/activationForm.php:12
+msgid "Your license is validated. %s is Installed and active"
+msgstr ""
+
+# @ user-meta
+#: views/settings/activationForm.php:14
+msgid "Update Credentials"
+msgstr ""
+
+# @ user-meta
+#: views/settings/activationForm.php:21
+msgid "Enter your email and password for %s"
+msgstr ""
+
+# @ user-meta
+#: views/settings/activationForm.php:23
+msgid "Withdraw License"
+msgstr ""
+
+# @ user-meta
+#: views/settings/activationForm.php:30
+msgid "Enter your email and password for %s to activate the pro version."
+msgstr ""
+
+# @ user-meta
+#: views/settings/activationForm.php:32
+msgid "Enter your email and password for %s for upgrade to pro version."
+msgstr ""
+
+#: views/settings/activationForm.php:40
+msgid "FAQ / Help"
+msgstr ""
+
+# @ user-meta
+#: views/settings/activationForm.php:75
+msgid "Validate"
+msgstr ""
+
+# @ user-meta
+#: views/settings/activationForm.php:82
+msgid "Click to upgrade to Pro!"
+msgstr ""
+
+# @ user-meta
+#: views/settings/activationForm.php:89
+msgid ""
+"This will withdraw license from all sites under the network. Are you sure "
+"you want to withdraw pro license from all sites?"
+msgstr ""
+
+# @ user-meta
+#: views/settings/activationForm.php:91
+msgid "Are you sure you want to withdraw pro license from this site?"
+msgstr ""
+
+# @ user-meta
+#: views/settings/activationForm.php:101
+msgid "User Meta Pro Account Information"
+msgstr ""
+
+# @ user-meta
+#: views/settings/generalSettings.php:8
+msgid "Profile Page Selection"
+msgstr ""
+
+#: views/settings/generalSettings.php:18
+msgid "Show profile link to <a href=\"%s\">Users</a> administration page."
+msgstr ""
+
+# @ user-meta
+#: views/settings/generalSettings.php:20
+msgid "Profile page should contain shortcode like: %s"
+msgstr ""
+
+# @ user-meta
+#: views/settings/generalSettings.php:31
+msgid "E-mail Sender Setting"
+msgstr ""
+
+# @ user-meta
+#: views/settings/generalSettings.php:33
+msgid "Set default email sender information"
+msgstr ""
+
+# @ user-meta
+#: views/settings/generalSettings.php:36
+msgid "From Name:"
+msgstr ""
+
+# @ user-meta
+#: views/settings/generalSettings.php:44
+msgid "From Email:"
+msgstr ""
+
+# @ user-meta
+#: views/settings/generalSettings.php:52
+msgid "Email Format:"
+msgstr ""
+
+# @ user-meta
+#: views/settings/miscSettings.php:4
+msgid "This feature is only supported in Pro version. Get %s"
+msgstr ""
+
+# @ user-meta
+#: views/settings/textSettings.php:9
+msgid "Custom text for front-end"
+msgstr ""
+
+# @ user-meta
+#: views/settingsPage.php:18
+msgid "General"
+msgstr ""
+
+# @ user-meta
+#: views/settingsPage.php:21
+msgid "Redirection"
+msgstr ""
+
+# @ user-meta
+#: views/settingsPage.php:22
+msgid "Backend Profile"
+msgstr ""
+
+# @ user-meta
+#: views/settingsPage.php:37
+msgid "Text"
+msgstr ""
+
+# @ user-meta
+#: views/shortcodePopup.php:10
+msgid "Action Type"
+msgstr ""
+
+# @ user-meta
+#: views/shortcodePopup.php:31
+msgid "Use role based user profile (advanced)"
+msgstr ""
+
+# @ user-meta
+#: views/shortcodePopup.php:37
+msgid "Assign form to user role. Leave blank for using default form"
+msgstr ""
+
+# @ user-meta
+#: views/shortcodePopup.php:52
+msgid "Insert Shortcode"
+msgstr ""
+
+# @ user-meta
+#: views/shortcodePopup.php:79
+msgid "Optional"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"User management plugin. Frontend user profile, user egistration with extra "
+"fields. Login widget, user import, user redirection, email verification, "
+"admin approval, frontend lost-reset passwod and many more."
+msgstr ""

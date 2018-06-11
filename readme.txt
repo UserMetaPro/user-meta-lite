@@ -1,20 +1,21 @@
 === User Meta ===
 Contributors: khaledsaikat
 Tags: user, profile, registration, login, frontend, users, usermeta, import, csv, upload, AJAX, admin, plugin, page, image, images, photo, picture, file, email, shortcode, captcha, avatar, redirect, register, password, custom, csv, import, user import, widget
-Requires at least: 3.3.0
-Tested up to: 4.1
-Stable tag: 1.1.6
+Requires at least: 4.4.0
+Tested up to: 4.9.6
+Stable tag: 1.3
 Copyright: Khaled Hossain, user-meta.com
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-WordPress user management plugin. Custom user profile, custom Login, registration with extra fields and many more.
+A well designed, features reached and easy to use user management plugin that allows front-end login, profile update, user registration with extra fields and many more.
 
 == Description ==
 
 = Features =
-* Allows user to update their profile on front-end.
-* Add extra fields to custom user profile.
+* Front-end user login.
+* Allows users to update their profile on front-end.
+* Add extra fields to customized user profile.
 * Front-end user registration by shortcode.
 * Add extra fields to custom user registration.
 * Add profile link to users listing page.
@@ -24,44 +25,64 @@ WordPress user management plugin. Custom user profile, custom Login, registratio
 * Users can register their account with different role by using different registration form.
 * Show user avatar to profile and registration page (both ajax and non ajax).
 * Modify default email sender information (Let your user get email from your preferred name and email instead of wordpress@example.com)
+* Use conditional logic to show/hide fields based on other fields.
 
+Like this plugin? Consider leaving a [5 star review](https://wordpress.org/support/plugin/user-meta/reviews/?filter=5).
+Your review means a lot to us.
 
-= Extra features for User Meta Pro =
+= Extra features for User Meta Pro (paid version) =
 * Front-end custom user login by username or email.
-* Front-end lost password and reset password.
+* Front-end reset password.
 * User Profile widget, registration widget and login widget.
 * Auto user login after registration.
 * Email verification on registration.
 * Admin approval on user registration.
-* Admin can activate or deactivate any user form user listing page.
+* Admin can activate or deactivate any user by user listing page.
 * Add extra fields to default profile or hide existing fields.
 * Role based redirection after user login, logout and registration.
 * Customize emails sent from your WordPress site. Add default field or extra fields content to each email.
 * Bulk users import/export from/to csv file with extra fields.
 * Customize, filter, or change user order while exporting users.
 * User import/export with hashed or plain text password.
-
-Get [User Meta Pro](http://user-meta.com/ "User Meta Pro").
-
+* Customize all email notifications.
 
 = Supported field for form builder =
+Bellow are the list of supported fields to build profile or registration form:
+
+= WordPress default fields =
+* Username
+* Email
+* Password
+* Website
+* Display Name
+* Nickname
+* First Name
+* Last Name
+* Biographical Info
+* Registration Date
+* Role
+* Jabber
+* Aim
+* Yim
 * User Avatar
+
+= Extra fields =
 * TextBox
 * Paragraph
 * Rich Text
 * Hidden Field
 * DropDown
-* Multi select
-* CheckBox
 * Select One (radio)
-* Date /Time
-* Password
-* Email
+* CheckBox
+
+= Extra fields for User Meta Pro (paid version) =
+* Multi-select
+* Date-Time
 * File Upload
 * Image Url
 * Phone Number
 * Number
-* Website
+* Url
 * Country
 * Custom Field
 * Page Heading
@@ -69,21 +90,24 @@ Get [User Meta Pro](http://user-meta.com/ "User Meta Pro").
 * HTML
 * Captcha
 
+Get [User Meta Pro](https://user-meta.com/ "User Meta Pro").
 
-
-You can create unlimited number of fields. All newly created field's data will save to WordPress default usermeta table. so you can retrieve all user data by calling wordpress default functions(e.g. get_userdata(), get_user_meta() ). User Meta plugin separates fields and forms. So, a single field can be used among several forms.
 
 = Documentation =
 
-**3 steps to get started**
+**2 steps to get started**
 
-1. Create Field from User Meta >> Fields Editor.
-1. Go to User Meta >> Forms Editor, Give a name to your form. Drag and drop fields from right to left and save the form.
-1. Write shortcode to your page or post. e.g.: Shortcode: [user-meta-profile form='your_form_name']
+1. Go to User Meta >> Forms. Create a form, give a name to your form and populate it with fields.
+2. Write shortcode to your page or post. e.g.: Shortcode: [user-meta-profile form='your_form_name']
 
-[View Documentation](http://user-meta.com/documentation/ "User Meta Pro Documentation")
+[View Documentation](https://user-meta.com/documentation/ "User Meta Pro Documentation")
 
-Get [User Meta Pro](http://user-meta.com/ "User Meta Pro").
+Get [User Meta Pro](https://user-meta.com/ "User Meta Pro").
+
+**Note**
+The plugin stores all user's data to wp_usermeta table as WordPress standard.
+So it is possible to other plugin talks with User Meta using WordPress standard.
+
 
 == Installation ==
 
@@ -94,33 +118,133 @@ Get [User Meta Pro](http://user-meta.com/ "User Meta Pro").
 == Frequently Asked Questions ==
 
 = Why error message, "User registration is currently not allowed." is showing in registration page? =
+WordPress doesn't allow to register new user by default settings.
+To allow user to register, go to Settings >> General page in admin section.
+Checked the checkbox which is saying "Anyone can register" and Save Changes.
 
-WordPress doesn't allow to register new user by default settings. To allow user to register, go to Settings >> General page in admin section. Checked the checkbox which is saying "Anyone can register" and Save Changes.
+= Saving fields, forms or email notification settings in admin section displays 0 =
+For very long form or lots of fields, you might encounter displaying 0 instead of saving,
+If you ever have this issue, mostly it could be max_input_vars are exceeding.
+To solve this problem increase max_input_vars in your .htaccess file.
+
+`php_value max_input_vars 3000`
+
+If you have suhosin installed, use following too.
+
+`php_value suhosin.post.max_vars 3000`
 
 
 == Screenshots ==
 
-01. Front-end user registration with extra fields.
-02. Front-end user profile with extra fields.
-03. Front-end user login form / widget.
-04. Supported fields for creating profile or registration form.
-05. Simple registration form.
-06. Simple profile form.
-07. Remove existing fields or add new fields to WordPress default backend profile.
-08. Login configuration.
-09. User export screen.
-10. User import screen after uploading csv.
-11. Email notifications.
-12. Customization of email notification.
-13. Change default email sender.
-14. Auto login, admin approval, email verification on registration.
-15. Role based redirection on login, logout and registration.
+01. Simple registration form.
+02. Simple profile form.
+03. Front-end user registration with extra fields.
+04. Front-end user profile with extra fields.
+05. Supported fields for creating profile or registration form.
 
 == Changelog ==
 
+= 1.4 =
+* Added support for GDPR data export
+* rich_text field accepts options by hook
+* Fix: read-only for rich_text field
+* Removed Reset password style
+* Added user_meta_admin capability
+* Minimum requirement WP-4.4
+* Updated bootstrap to v3.3.7
+* New filter hook: user_meta_wp_hooks
+* Deprecated hook: user_meta_wp_hook
+* Lite: Login by username or email or both of them
+* Lite: Front-end lost-password and reset-password options
+* Lite: Show logged-in user customized data, based on user role
+* Pro: New built-in menu for add-ons management
+* Deprecate using user-meta-advanced and user-meta-wpml addons separately
+* New pro addon: BuddyPress xProfile Export
+* Fix: pagination bug for non-pagination page
+* Enhance security of file uploader
+
+= 1.3 =
+* Allow array in roles
+* Pro: Export and import multiple roles
+* Pro: Separate options for different captcha
+* Pro: Scroll to top with page heading
+* Code: New filter hook: user_meta_recaptcha_request_method
+* Code: Removed PHP7.1 depreciated mcrypt_encrypt dependencies
+* Code: Update ReCaptcha to 1.1.3
+* Code: Minimum requirements for the plugin is PHP-5.5
+* Fix: Page navigation bug
+* Fix: Role export bug
+
+= 1.2.1 =
+* PHP7 compatibility
+* Modify class names according to PSR-2 standard
+* Added more options to captcha
+* Lite: Add login features to lite version
+* Fix: print inline js to backend profile (date-time was not working)
+* Fix: bug on user importing extra fields
+* Fix: Login error message bug
+* Fix: Conditional logic for checkbox, radio, and multi-select
+* Fix: Using multiple captchas on the same page
+
+= 1.2 =
+* Visual options selector for dropdown, multi-select, radio and checkbox
+* Code: Minimum requirements for the plugin is PHP-5.4 and WP-3.7
+* Code: Using namespace and rewriting field generation classes
+* Code: Apply PSR-2 coding standard to all PHP files
+* Code: Rewrite all field generation codes
+* Optimized for wpml support
+* Update translation files
+* Added user_meta_loaded action hook to load extensions
+* Put inline front-end JavaScript to footer
+* Added tooltip to field editor
+* Remove placeholder as field label type, as placeholder has its own field.
+* Force uploaded file name to be lowercase and special character escaped.
+* New Hooks: user_meta_field_config_render, user_meta_field_config_before_update, user_meta_form_config_render
+* Style file remove link
+* Delete avatar and files while deleting a user
+* Delete old files & avatar on profile update
+* Pro: Redirection to a page
+* Pro: Export users by form_id and write to file
+* Pro: Renamed user-meta directory to user-meta-pro for pro version
+* Fix: re-validation for regex input
+* Fix: Storing admin approval emails bug
+* Fix: Email notification selection tab collapse
+* Fix: Bulk users export issue
+* Fix: Password reset issue since WP-4.3
+* Fix: Add user to blog, without user_login but user_email
+* Fix: Don’t let existing user register again for the same site under network
+* Fix: WP-4.5 compatibility
+
+= 1.1.7.1 =
+* Fix: Duplicate field id in case of form import
+* Check if other reCaptcha library is exists, to avoid conflict.
+* Fix: Add user to blog
+* Fix: Rich text url bug
+
+= 1.1.7 =
+* Redesigned fields and forms editor.
+* Conditional logic.
+* Username will remain same as email while registration without username.
+* Remove base64_decode.
+* Switch uploader code to admin-ajax.php.
+* Remove html5 required validation, add html5 regex to custom field.
+* Strip @noreply.com.
+* Added Turkish and Czech translation.
+* Added regex to password field.
+* Pro: Allow to hide extra social fields from backend profile.
+* Pro: reCaptcha v2.
+* Pro: Added %generated_password% placeholder.
+* Pro: Remove password & email field from standard fields set. Those fields can can be used via “custom fields”.
+* Pro: Add retype_label to custom field.
+* Pro: Added yearRange to datetime field.
+* Pro: Profile update email for backend, track modified email.
+* Pro: Added filter: user_meta_countries_list filter to countries list.
+* Pro: Separate email verification and admin approval processes.
+* Fix: Pagination bug.
+* Fix: required checkbox error.
+
 = 1.1.6 =
 * Support user registration for free version.
-* Pro: Added registration link with login form/widget.
 * Remove plugin-framework.css/js. Split user-meta.js into user-meta.js and user-meta-admin.js
 * Optimize the plugin for user-meta-advanced add-on.
 * Allow action/filter hook enable/disable by ‘user_meta_wp_hook’ filter.
@@ -139,6 +263,7 @@ WordPress doesn't allow to register new user by default settings. To allow user 
 * Pro: Import both plain text and hashed password with users import.
 * Pro: Allow override of WordPress default user registration and reset password email by add-on.
 * Pro: try to send single email when sending multiple email at a time failed.
+* Pro: Added registration link with login form/widget.
 
 = 1.1.5 =
 * Add user_id parameter to user_meta_pre_user_update filter hook.
@@ -226,6 +351,7 @@ WordPress doesn't allow to register new user by default settings. To allow user 
 * Pro: User email verification on registration.
 * Pro: User activation and deactivation.
 * pro: Role based user redirection on registration, login and logout.
+* Fix: Arbitrary File Upload Vulnerability
 
 = 1.1.1 =
 * Added Support while fail AJAX call
